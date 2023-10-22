@@ -13,6 +13,7 @@ import { initUserInfo, changeLoginStatus } from "./redux/userSlice";
 const { Header, Footer, Content } = Layout;
 
 function App() {
+  let test = 123;
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const dispatch = useDispatch();
